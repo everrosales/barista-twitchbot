@@ -13,7 +13,7 @@ var server = http.createServer( (request, response) => {
   var string = votePercentages.toString();
   response.end(string);
 });
-server.listen(3001);
+server.listen(process.env.PORT || 3001);
 
 var app = express();
 app.set('views', path.join(__dirname, 'views'));
