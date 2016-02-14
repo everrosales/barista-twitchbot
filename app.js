@@ -32,7 +32,7 @@ wsServer = new WebSocketServer({
   httpServer: server
 });
 
-ws = new WebSocket('ws://' + "18.187.7.89" + ':1234', 'echo-protocol');
+ws = new WebSocket('ws://' + "18.111.63.105" + ':1234', 'echo-protocol');
 console.log(ws);
 
 
