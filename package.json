@@ -10,6 +10,12 @@
   "author": "erosales",
   "license": "MIT",
   "dependencies": {
-    "tmi.js": "0.0.26"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "nodemon": "^1.8.1",
+    "tmi.js": "0.0.26",
+    "websocket": "^1.0.22",
+    "ws": "^1.0.1"
   }
 }
